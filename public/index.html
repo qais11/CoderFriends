@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+  <head >
+    <meta charset="utf-8">
+    <title>github</title>
+    <link rel="stylesheet" href="./style.css" media="screen" title="no title">
+  </head>
+  <body  ng-controller="mainCtrl">
+      <h2>welcome</h2>
+      {{test}}
+      <ui-view></ui-view>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.js" charset="utf-8"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js" charset="utf-8"></script>
+      <script src="./app.js" charset="utf-8"></script>
+      <script src="./mainCtrl.js" charset="utf-8"></script>
+      <script src="./services/github-service.js" charset="utf-8"></script>
+  </body>
+</html>
